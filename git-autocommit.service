@@ -1,0 +1,8 @@
+[Unit]
+Description=git autocommit
+
+[Service]
+ExecStart=/home/serge/.git-autocommit
+
+[Install]
+WantedBy=default.target
